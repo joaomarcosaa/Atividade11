@@ -1,0 +1,25 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.buttons {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 13px 50px;
+  background-color: #00c3ff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
